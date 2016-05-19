@@ -21,6 +21,15 @@ body {
   text-indent: 25px;
 }
 
+#explore-origin, #explore-resettlement, #explore-sentiment {
+  border: 2px solid black;
+  width: 200px;
+  color: black;
+  text-align: center;
+  padding: 3px;
+  margin: 20px auto;
+}
+
 #get-started {
   border: 2px solid black;
   width: 100px;
@@ -30,10 +39,14 @@ body {
   margin: 0 auto;
 }
 
-#get-started:hover {
+#get-started:hover, #explore-origin:hover, #explore-sentiment:hover, #explore-resettlement:hover {
   color: white;
   background-color: black;
   cursor: pointer;
+}
+
+#explore {
+  display: none;
 }
 
 #copyright {
