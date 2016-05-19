@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  background-color: #FAF0E6;
+}
+
+#title {
+  /*color: #FFC107;*/
+  color: #000000;
+}
+
+#tag-line {
+  color: #BFBFBF;
+}
+
+#notes {
+  color: #BFBFBF;
+  display: none;
+}
+
+#mission-statement {
+  text-indent: 25px;
+}
+
+#get-started {
+  border: 2px solid black;
+  width: 100px;
+  color: black;
+  text-align: center;
+  padding: 3px;
+  margin: 0 auto;
+}
+
+#get-started:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+#copyright {
+  /*text-align: center;*/
+  margin-top: 30px;
+  font-size: 8px;
+  position: fixed;
+  bottom: 5px;
+}
